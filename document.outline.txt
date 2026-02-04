@@ -1,0 +1,17 @@
+Document outline
+H1 - Comp 484 (main title)
+H2 - Structuring Pages (seconadry heading)
+H3 - Conveying meaning through structure (subsections)
+H3 - Sectioning elements (subsections)
+H3 - Document outlines (subsections)
+H3 - WAI- ARIA Roles (subsections)
+
+aside - W3C Warning (related content but not absolutely necessary)
+article - parapgraph structure  (Section that consists of a composotion but forms an independent part of the page) after the title
+nav - links (navigating the document or related documents)
+section - subparagraphs (sections whose contest supports the main content or idea)
+
+Examine how semantic tags like the header, footer, and main elements are used.
+header - title & subtitles 
+footer - end of page (csun link & address)
+main elements - all the information on the page (paragraphs)

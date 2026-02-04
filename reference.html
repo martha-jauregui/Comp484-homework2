@@ -6,8 +6,10 @@
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <header role="banner">
 <h1>Comp 484</h1>
 <h2>HTML Reference</h2>
+<nav role="navigation">
 <ul>
   <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
   <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
@@ -16,8 +18,14 @@
   <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
   <li><a href="next.html" title="Next steps">Next steps</a></li>
 </ul>
-<p>On this page you&rsquo;ll find a quick reference to common HTML terms and a table of frequently used <a href="#named">named character entities</a>.</p>
+</nav>
+  </header>
+<main role="main">
+    <header>
 <h3>HTML Terms</h3>
+<p>On this page you&rsquo;ll find a quick reference to common HTML terms and a table of frequently used <a href="#named">named character entities</a>.</p>
+    </header>
+    <section>
 <dl>
   <dt>Attribute</dt>
   <dd> An HTML element property that provides additional information or functionality for an element. Attributes appear as a name/value pair with the value contained in quotation marks. </dd>
@@ -62,6 +70,7 @@
   <dt>W3C </dt>
   <dd>The W3C, or <b>World Wide Web Consortium</b>, is the standards body responsible for authoring the HTML specification. </dd>
 </dl>
+</section>
 <table border="1" cellspacing="0" cellpadding="0" summary="A quick reference of named character entities, including an example of the character, a description, and the entity code.">
   <caption>
   <h3 id="named">Common Named Character Entities </h3>
@@ -157,6 +166,9 @@
     <td><b>&amp;mdash;</b></td>
   </tr>
 </table>
-<p><a href="http://www.csun.edu" title="csun.edu" target="_blank">CSUN</a> 18111 Nordhoff St Northridge, CA 91330</p>
+</main>
+<footer role="contentinfo">
+  <p><a href="http://www.csun.edu" title="csun.edu" target="_blank">CSUN</a> 18111 Nordhoff St Northridge, CA 91330</p>
+</footer>
 </body>
 </html>
